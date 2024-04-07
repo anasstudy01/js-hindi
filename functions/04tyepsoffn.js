@@ -16,7 +16,7 @@ greet1(); // 'Hello, world!'
 // javascript
 // Copy code
 const greet3 = () => console.log("Hello, world!");
-greet(); // 'Hello, world!'
+greet3(); // 'Hello, world!'
 // Immediately-invoked function expressions (IIFEs): An IIFE is a function that is invoked immediately after it is defined. It is often used to create a scope for variables and avoid polluting the global namespace.
 // javascript
 // Copy code

@@ -27,7 +27,7 @@ return num1 +num2
 }
 console.log(addTwo(5,3));
 
-// implecite return fuction -one liner
+// implecite return fuction -one liner funcion 
 
 const addThree = (num1,num2,num3)=>num1+num2+num3
 console.log(addThree(1,2,3));
