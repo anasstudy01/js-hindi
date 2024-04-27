@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="headings">
+        <h1>amazing images</h1>
+    </div>
+    <div class="container">
+
+        <img class="photos"  id="jhumar"    src="https://images.pexels.com/photos/19987317/pexels-photo-19987317/free-photo-of-ceiling-of-the-library-at-the-university-of-cambridge.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+        <img class="photos"  id=""    src ="https://images.pexels.com/photos/19036832/pexels-photo-19036832/free-photo-of-mountain-reflection-in-lake.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+        <img class="photos"  id=""    src ="https://images.pexels.com/photos/6296905/pexels-photo-6296905.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+    
+        <img class="photos"  id=""   src ="https://images.pexels.com/photos/21293939/pexels-photo-21293939/free-photo-of-a-close-up-of-a-bouquet-with-red-and-brown-flowers.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+       
+        <img class="photos"  id=""    src="https://images.pexels.com/photos/21287205/pexels-photo-21287205/free-photo-of-blonde-woman-sitting-backwards-on-wooden-chair.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"> 
+        <img class="photos"  id=""    src="https://images.pexels.com/photos/21812160/pexels-photo-21812160/free-photo-of-puerta-colonial-color-rojo-de-guanajuato-mexico.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+    </div>  
+
+<div class="footer">
+    <h1>here is gamechanger</h1>
+    <button class="btn">start</button>
+    <button class="btn">stop</button>
+</div>
+</body>
+<script>
+    // document.getElementById('jhumar').onclick=function(){
+    //     alert("jhumar hai bhia")
+    // }
+    document.getElementById('jhumar').addEventListener('click',function(){
+        alert("jhumar hai bhai")
+    })
+
+const randomColor = function(){
+    
+    const hex ="123456789ABCDEF"
+    let color = '#'
+    for(let i=0;i<6;i++){
+        color += hex[Math.floor(Math.random()*hex.length)]
+    }
+    return color;
+    
+};
+console.log(randomColor())
+
+
+</script>
+</html>

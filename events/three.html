@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>javascript practce</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+  </body>
+<script>
+ 
+ const changetext = function (){
+    document.querySelector('h1').innerHTML="we are the best " }
+    
+   
+    // document.querySelector('#start').addEventListener('click',funtion(){
+    //     console.log("start is pressed")
+ 
+    // })
+    document.querySelector("#start").addEventListener("click", function () {
+        timer =  setTimeout(changetext,2000);
+    });
+
+    document.querySelector("#stop").addEventListener("click", function () {
+      clearTimeout(timer);
+      console.log("stoped");
+    });
+
+
+
+</script>
+
+</html>
